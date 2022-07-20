@@ -7,7 +7,6 @@ Steps:
     - cargo install pyoxidizer
         - check installation with `pyoxidizer`
 (2) Create PyOxidizer config file
-    - cd into directory of choice
     - pyoxidizer init-config-file pyapp 
     - cd pyapp
     - pyoxidizer run
