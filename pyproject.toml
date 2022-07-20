@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test-py"
+version = "0.1.0"
+description = ""
+authors = ["Rachel Rybarczyk <rachel.rybarczyk@galaxydigital.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+test_py = "test_py.test_py:run"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
